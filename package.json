@@ -1,0 +1,22 @@
+{
+  "name": "color-difference",
+  "version": "0.1.0",
+  "description": "Color difference calculator",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/garex/nodejs-color-difference.git"
+  },
+  "keywords": [
+    "color",
+    "difference"
+  ],
+  "author": "Alexander Ustimenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garex/nodejs-color-difference/issues"
+  },
+  "homepage": "https://github.com/garex/nodejs-color-difference"
+}
