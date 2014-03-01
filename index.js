@@ -1,2 +1,5 @@
-module.exports.Color = require('./lib/color');
+module.exports  = {
+    Color         : require('./lib/color')
+  , compare       : require('./lib/compare')
+};
 
