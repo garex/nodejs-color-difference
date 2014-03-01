@@ -1,6 +1,6 @@
 {
   "name": "color-difference",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Color difference calculator",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
