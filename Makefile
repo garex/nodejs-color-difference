@@ -18,7 +18,7 @@ test-w:
 test-cov:
 	@rm -rf .coverage
 	@mkdir -p .coverage
-	@jscoverage lib .coverage/lib
+	@jscoverage --exclude=cli-runner.js lib .coverage/lib
 	@COLOR_DIFFERENCE_COVERAGE=1 $(MAKE) --silent test REPORTER=html-cov > .coverage/index.html
 
 .PHONY: test test-w test-cov

@@ -1,9 +1,12 @@
 {
   "name": "color-difference",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Color difference calculator",
   "scripts": {
     "test": "make test"
+  },
+  "bin": {
+    "color-difference": "./bin/color-difference"
   },
   "repository": {
     "type": "git",
@@ -23,7 +26,8 @@
   },
   "homepage": "https://github.com/garex/nodejs-color-difference",
   "dependencies": {
-    "color-model": "^0.1.1"
+    "color-model": "^0.1.1",
+    "cli": "^0.4.5"
   },
   "devDependencies": {
     "should": "^3.1.3",
