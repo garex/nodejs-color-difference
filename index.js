@@ -1,5 +1,4 @@
-module.exports  = {
-    Color         : require('./lib/color')
-  , compare       : require('./lib/compare')
-};
-
+module.exports = require(process.env.COLOR_DIFFERENCE_COVERAGE
+    ? './.coverage/lib'
+    : './lib'
+  );
