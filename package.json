@@ -3,23 +3,30 @@
   "version": "0.1.2",
   "description": "Color difference calculator",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/garex/nodejs-color-difference.git"
   },
   "keywords": [
-    "color"
-    , "difference"
-    , "RGB"
-    , "Lab"
-    , "CIE76"
+    "color",
+    "difference",
+    "RGB",
+    "Lab",
+    "CIE76"
   ],
   "author": "Alexander Ustimenko",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/garex/nodejs-color-difference/issues"
   },
-  "homepage": "https://github.com/garex/nodejs-color-difference"
+  "homepage": "https://github.com/garex/nodejs-color-difference",
+  "dependencies": {
+    "color-model": "^0.1.1"
+  },
+  "devDependencies": {
+    "should": "^3.1.3",
+    "mocha": "^1.17.1"
+  }
 }
