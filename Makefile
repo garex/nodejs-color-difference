@@ -17,8 +17,8 @@ test-w:
 
 test-cov:
 	@rm -rf .coverage
-	@mkdir .coverage
+	@mkdir -p .coverage
 	@jscoverage lib .coverage/lib
-	@COVERAGE=1 $(MAKE) --silent test REPORTER=html-cov > .coverage/index.html
+	@COLOR_DIFFERENCE_COVERAGE=1 $(MAKE) --silent test REPORTER=html-cov > .coverage/index.html
 
 .PHONY: test test-w test-cov

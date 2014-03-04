@@ -29,9 +29,10 @@ describe('compare', function() {
     }).should.throwError(/unknown/);
 
     (function(){
-      compare('', '');
-      compare('', '', 'EuclideanDistance');
-      compare('', '', 'CIE76Difference');
+      compare('fff', 'ccc');
+      compare('fff', 'ccc', 'EuclideanDistance');
+      compare('fff', '#ffffff', 'EuclideanDistance');
+      compare('fff', 'ccc', 'CIE76Difference');
     }).should.not.throwError();
 
   });
