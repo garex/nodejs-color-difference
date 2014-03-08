@@ -5,6 +5,11 @@ REQUIRE  = should
 test:
 	@NODE_ENV=test $(MOCHA) \
 										--require $(REQUIRE) \
+										--reporter $(REPORTER)
+
+test-nc:
+	@NODE_ENV=test $(MOCHA) \
+										--require $(REQUIRE) \
 										--reporter $(REPORTER) \
 										--no-colors
 
