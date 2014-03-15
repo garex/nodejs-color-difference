@@ -1,6 +1,6 @@
 {
   "name": "color-difference",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Color difference calculator",
   "scripts": {
     "test": "make test"
