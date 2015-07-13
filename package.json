@@ -1,10 +1,11 @@
 {
   "name": "color-difference",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Color difference calculator",
   "scripts": {
     "test": "make test"
   },
+  "main": "./lib",
   "bin": {
     "color-difference": "./bin/color-difference"
   },
